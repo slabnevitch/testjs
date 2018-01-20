@@ -1,5 +1,6 @@
+alert('js');
 $(function() {
-
+	alert('js-in');
 	var calcPopup = $('.tooltip').tooltipster({
 		// plugins: ['sideTip', 'scrollableTip'],
 		interactive: true,
