@@ -58,18 +58,19 @@ $(function() {
 		});
 // end Accordeon-----------------------------------
 	$(document).ready(function(){
-	var calcPopup = $('.tooltip').tooltipster({
-		interactive: true,
-		 trigger: 'click',
-		 arrow: true,
-		 side: 'bottom',
-		 contentCloning: true,
-		 debag: true,
-		 distance: 12,
-		 functionInit(instance, helper){
+	alert($('.tooltip').attr('class');
+// 	var calcPopup = $('.tooltip').tooltipster({
+// 		interactive: true,
+// 		 trigger: 'click',
+// 		 arrow: true,
+// 		 side: 'bottom',
+// 		 contentCloning: true,
+// 		 debag: true,
+// 		 distance: 12,
+// 		 functionInit(instance, helper){
 			    
-			}
-	});
+// 			}
+// 	});
 });
 
 });
