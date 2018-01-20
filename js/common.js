@@ -58,7 +58,7 @@ $(function() {
 		});
 // end Accordeon-----------------------------------
 	$(document).ready(function(){
-	alert($('.tooltip').attr('class');
+// 	alert($('.tooltip').attr('class');
 // 	var calcPopup = $('.tooltip').tooltipster({
 // 		interactive: true,
 // 		 trigger: 'click',
