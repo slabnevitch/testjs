@@ -1,21 +1,7 @@
 alert('js');
 $(function() {
 	alert('js-in');
-// 	var calcPopup = $('.tooltip').tooltipster({
-// 		// plugins: ['sideTip', 'scrollableTip'],
-// 		interactive: true,
-// 		 trigger: 'click',
-// 		 arrow: true,
-// 		 side: 'bottom',
-// 		 // repositionOnScroll: true,
-// 		 contentCloning: true,
-// 		 debag: true,
-// 		 distance: 12,
-// 		 // animation: 'slide',
-// 		 functionInit(instance, helper){
-			    
-// 			}
-// 	});
+
 
 
     $(".toggle-mnu").click(function() {
@@ -80,6 +66,22 @@ $(window).load(function() {
 
 	$(".loader_inner").fadeOut();
 	$(".loader").delay(400).fadeOut("slow");
+	
+		var calcPopup = $('.tooltip').tooltipster({
+		// plugins: ['sideTip', 'scrollableTip'],
+		interactive: true,
+		 trigger: 'click',
+		 arrow: true,
+		 side: 'bottom',
+		 // repositionOnScroll: true,
+		 contentCloning: true,
+		 debag: true,
+		 distance: 12,
+		 // animation: 'slide',
+		 functionInit(instance, helper){
+			    
+			}
+	});
 	// Owl
 		$('#product-car').owlCarousel({
 			items: 1,
