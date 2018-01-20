@@ -1,21 +1,21 @@
 alert('js');
 $(function() {
 	alert('js-in');
-	var calcPopup = $('.tooltip').tooltipster({
-		// plugins: ['sideTip', 'scrollableTip'],
-		interactive: true,
-		 trigger: 'click',
-		 arrow: true,
-		 side: 'bottom',
-		 // repositionOnScroll: true,
-		 contentCloning: true,
-		 debag: true,
-		 distance: 12,
-		 // animation: 'slide',
-		 functionInit(instance, helper){
+// 	var calcPopup = $('.tooltip').tooltipster({
+// 		// plugins: ['sideTip', 'scrollableTip'],
+// 		interactive: true,
+// 		 trigger: 'click',
+// 		 arrow: true,
+// 		 side: 'bottom',
+// 		 // repositionOnScroll: true,
+// 		 contentCloning: true,
+// 		 debag: true,
+// 		 distance: 12,
+// 		 // animation: 'slide',
+// 		 functionInit(instance, helper){
 			    
-			}
-	});
+// 			}
+// 	});
 
 
     $(".toggle-mnu").click(function() {
