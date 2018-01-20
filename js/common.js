@@ -61,18 +61,18 @@ $(function() {
 
 });
 $(document).ready(function(){
-// 	var calcPopup = $('.tooltip').tooltipster({
-// 		interactive: true,
-// 		 trigger: 'click',
-// 		 arrow: true,
-// 		 side: 'bottom',
-// 		 contentCloning: true,
-// 		 debag: true,
-// 		 distance: 12,
-// 		 functionInit(instance, helper){
+	var calcPopup = $('.tooltip').tooltipster({
+		interactive: true,
+		 trigger: 'click',
+		 arrow: true,
+		 side: 'bottom',
+		 contentCloning: true,
+		 debag: true,
+		 distance: 12,
+		 functionInit(instance, helper){
 			    
-// 			}
-// 	});
+			}
+	});
 });
 
 $(window).load(function() {
