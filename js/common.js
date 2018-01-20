@@ -57,10 +57,7 @@ $(function() {
 			}
 		});
 // end Accordeon-----------------------------------
-	
-
-});
-$(document).ready(function(){
+	$(document).ready(function(){
 	var calcPopup = $('.tooltip').tooltipster({
 		interactive: true,
 		 trigger: 'click',
@@ -74,6 +71,9 @@ $(document).ready(function(){
 			}
 	});
 });
+
+});
+
 
 $(window).load(function() {
 
