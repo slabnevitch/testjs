@@ -60,28 +60,27 @@ $(function() {
 	
 
 });
-
+$(document).ready(function(){
+	var calcPopup = $('.tooltip').tooltipster({
+		interactive: true,
+		 trigger: 'click',
+		 arrow: true,
+		 side: 'bottom',
+		 contentCloning: true,
+		 debag: true,
+		 distance: 12,
+		 functionInit(instance, helper){
+			    
+			}
+	});
+});
 
 $(window).load(function() {
 
 	$(".loader_inner").fadeOut();
 	$(".loader").delay(400).fadeOut("slow");
 	
-		var calcPopup = $('.tooltip').tooltipster({
-		// plugins: ['sideTip', 'scrollableTip'],
-		interactive: true,
-		 trigger: 'click',
-		 arrow: true,
-		 side: 'bottom',
-		 // repositionOnScroll: true,
-		 contentCloning: true,
-		 debag: true,
-		 distance: 12,
-		 // animation: 'slide',
-		 functionInit(instance, helper){
-			    
-			}
-	});
+		
 	// Owl
 		$('#product-car').owlCarousel({
 			items: 1,
